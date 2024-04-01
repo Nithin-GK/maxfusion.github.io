@@ -49,7 +49,7 @@
 
           <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>Johns Hopkins University,</span>
-            <span class="author-block"><sup>2</sup>Standford University</span>
+            <span class="author-block"><sup>2</sup>Stanford University</span>
           </div>
 
           <div class="column has-text-centered">
@@ -187,6 +187,36 @@ text prompt "An astronaut riding a horse" for the 5th timestep of diffusion.
   </div>
 </section>
 
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!--/ Matting. -->
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Our Approach</h2>
+
+        <!-- Interpolating. -->
+        <div class="title is-4">
+          <img src="/Users/nithingk/Desktop/nerfies.github.io/static/images/method.png" alt="Toby" id="toby" style="height: 100%;">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            An illustration of MaxFusion. During the progression through the Text to Image Model, intermediate features are consolidated at each location, and the resulting merged features are subsequently transmitted to the diffusion module. Please note the colors during the merging and unmerging
+operation. Similar features are not unmerged and are passed as such to the next network layer.
+Non-similar intermediate outputs are passed without any change.
+          </p>
+        </div>
+
+
+      </div>
+    </div>
+    <!--/ Animation. -->
+
+  </div>
+</section>
 
 
 <section class="section">
